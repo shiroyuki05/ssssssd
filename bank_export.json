@@ -1,16 +1,11 @@
 {
   "bankingSystem": {
-    "nextAccountNumber": 1004,
+    "nextAccountNumber": 1002,
     "accounts": [
       {
         "accountNumber": 1001,
-        "accountHolder": "jp",
-        "balance": 100.00
-      },
-      {
-        "accountNumber": 1003,
-        "accountHolder": "shiroo",
-        "balance": 198000.00
+        "accountHolder": "ss",
+        "balance": 122.00
       }
     ]
   }

@@ -9,10 +9,10 @@ using namespace std;
 
 // Transaction structure to store transaction history
 struct Transaction {
-    string type;        // "Deposit", "Withdrawal", "Transfer"
-    double amount;
-    double balanceAfter;
-    time_t timestamp;
+    string type = "";        // "Deposit", "Withdrawal", "Transfer"
+    double amount = 0.0;
+    double balanceAfter = 0.0;
+    time_t timestamp = 0;
 };
 
 class BankAccount {
